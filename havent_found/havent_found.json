@@ -1,0 +1,345 @@
+{
+	"name": "havnt_found1",
+	"target_model": "CT-S500",
+	"target_family": "CT-S",
+	"rhythm": {
+		"name": "Havent1",
+		"volume": 127,
+		"tempo": 100,			
+		"parts": [
+			{
+				"part": 1,
+				"_comment": "Percussion",
+				"patch": 49,
+				"bank_msb": 120				
+			},
+			{
+				"part": 2,
+				"_comment": "Drums",
+				"patch": 32,
+				"bank_msb": 120,
+				"volume": 100					
+			},
+			{
+				"part": 3,
+				"_comment": "Bass",
+				"patch": 35,
+				"bank_msb": 32,
+				"volume": 127					
+			},
+			{
+				"part": 4,
+				"_comment": "Chord 1- Muted Guitar",
+				"patch": 28,
+				"bank_msb": 1,
+				"volume": 40				
+			},
+			{
+				"part": 5,
+				"_comment": "Chord 2 - E Guitar",
+				"patch": 27,
+				"bank_msb": 9,
+				"volume": 50,
+				"reverb_send": 10,
+				"chorus_send": 60				
+			},
+			{
+				"part": 6,
+				"_comment": "Chord 3 - D Guitar",
+				"patch": 30,
+				"bank_msb": 25,
+				"volume": 20				
+			},
+			{
+				"part": 7,
+				"_comment": "Chord 4 - E Piano",
+				"patch": 4,
+				"bank_msb": 24,
+				"volume": 50				
+			},
+			{
+				"part": 8,
+				"_comment": "Chord 5- A Guitar",
+				"patch": 25,
+				"bank_msb": 8,
+				"volume": 100,
+				"reverb_send": 50,
+				"chorus_send": 50				
+			}
+		],
+		"elements": [
+			{
+				"element": 1,
+				"_comment": "Intro 1"
+			},
+			{
+				"element": 2,
+				"_comment": "Variation 1"
+			},
+			{
+				"element": 3,
+				"_comment": "Variation 2"
+			},
+			{
+				"element": 4,
+				"_comment": "Fill 1"			
+			},
+			{
+				"element": 5,
+				"_comment": "Fill 2"			
+			},
+			{
+				"element": 6,
+				"_comment": "Ending 1"
+			},
+			{
+				"element": 7,
+				"_comment": "Intro 2 (unused)",
+				"omit": 1				
+			},
+			{
+				"element": 8,
+				"_comment": "Variation 3",
+				"omit": 1
+			},
+			{
+				"element": 9,
+				"_comment": "Variation 4",
+				"omit": 1
+			},
+			{
+				"element": 10,
+				"_comment": "Fill 3",
+				"omit": 1
+			},
+			{
+				"element": 11,
+				"_comment": "Fill 4",
+				"omit": 1
+			},
+			{
+				"element": 12,
+				"_comment": "Ending 2 (unused)",
+				"omit": 1				
+			}
+		],
+		"tracks": [
+			{
+				"element": 1,
+				"part": 2,				
+				"source_file": "./intro1/drum.mid",
+				"source_channel": 1
+			},		
+			{
+				"element": 1,				
+				"part": 5,
+				"source_file": "./intro1/chord2.mid",
+				"source_channel": 1,
+				"chord_sync": 1
+			},
+			{
+				"element": 2,				
+				"part": 1,
+				"source_file": "./arra/groove.mid",
+				"source_channel": 1
+			},
+			{
+				"element": 2,				
+				"part": 2,
+				"source_file": "./arra/drum.mid",
+				"source_channel": 1
+			},			
+			{
+				"element": 2,				
+				"part": 3,
+				"source_file": "./arra/bass.mid",
+				"source_channel": 1,
+				"chord_sync": 1
+			},	
+			{
+				"element": 2,				
+				"part": 4,
+				"source_file": "./arra/chord1.mid",
+				"source_channel": 1,
+				"chord_sync": 1
+			},
+			{
+				"element": 2,				
+				"part": 5,
+				"source_file": "./arra/chord2.mid",
+				"source_channel": 1,
+				"chord_sync": 1
+			},
+			{
+				"element": 2,				
+				"part": 6,
+				"source_file": "./arra/chord3.mid",
+				"source_channel": 1,
+				"chord_sync": 1
+			},			
+			{
+				"element": 3,				
+				"part": 1,
+				"source_file": "./arrb/groove.mid",
+				"source_channel": 1
+			},
+			{
+				"element": 3,				
+				"part": 2,
+				"source_file": "./arrb/drum.mid",
+				"source_channel": 1
+			},			
+			{
+				"element": 3,				
+				"part": 3,
+				"source_file": "./arrb/bass.mid",
+				"source_channel": 1,
+				"chord_sync": 1
+			},	
+			{
+				"element": 3,				
+				"part": 4,
+				"source_file": "./arrb/chord1.mid",
+				"source_channel": 1,
+				"chord_sync": 1
+			},
+			{
+				"element": 3,				
+				"part": 5,
+				"source_file": "./arrb/chord2.mid",
+				"source_channel": 1,
+				"chord_sync": 1
+			},
+			{
+				"element": 3,				
+				"part": 6,
+				"source_file": "./arrb/chord3.mid",
+				"source_channel": 1,
+				"chord_sync": 1
+			},
+			{
+				"element": 4,				
+				"part": 2,
+				"source_file": "./arrd/drum.mid",
+				"source_channel": 1
+			},			
+			{
+				"element": 4,				
+				"part": 3,
+				"source_file": "./arrd/bass.mid",
+				"source_channel": 1,
+				"chord_sync": 1
+			},	
+			{
+				"element": 4,				
+				"part": 4,
+				"source_file": "./arrd/chord1.mid",
+				"source_channel": 1,
+				"chord_sync": 1
+			},
+			{
+				"element": 4,				
+				"part": 5,
+				"source_file": "./arrd/chord2.mid",
+				"source_channel": 1,
+				"chord_sync": 1
+			},
+			{
+				"element": 4,				
+				"part": 6,
+				"source_file": "./arrd/chord3.mid",
+				"source_channel": 1,
+				"chord_sync": 1
+			},
+			{
+				"element": 4,				
+				"part": 7,
+				"source_file": "./arrd/chord4.mid",
+				"source_channel": 1,
+				"chord_sync": 1
+			},
+			{
+				"element": 5,				
+				"part": 2,
+				"source_file": "./arrc/drum.mid",
+				"source_channel": 1
+			},			
+			{
+				"element": 5,				
+				"part": 3,
+				"source_file": "./arrc/bass.mid",
+				"source_channel": 1,
+				"chord_sync": 1
+			},	
+			{
+				"element": 5,				
+				"part": 4,
+				"source_file": "./arrc/chord1.mid",
+				"source_channel": 1,
+				"chord_sync": 1
+			},
+			{
+				"element": 5,				
+				"part": 5,
+				"source_file": "./arrc/chord2.mid",
+				"source_channel": 1,
+				"chord_sync": 1
+			},
+			{
+				"element": 5,				
+				"part": 6,
+				"source_file": "./arrc/chord4.mid",
+				"source_channel": 1,
+				"chord_sync": 1
+			},
+			{
+				"element": 5,				
+				"part": 7,
+				"source_file": "./arrc/chord5.mid",
+				"source_channel": 1,
+				"chord_sync": 1
+			},			
+			{
+				"element": 6,				
+				"part": 2,
+				"source_file": "./end1/drum.mid",
+				"source_channel": 1
+			},			
+			{
+				"element": 6,				
+				"part": 3,
+				"source_file": "./end1/bass.mid",
+				"source_channel": 1,
+				"chord_sync": 1
+			},	
+			{
+				"element": 6,				
+				"part": 4,
+				"source_file": "./end1/chord1.mid",
+				"source_channel": 1,
+				"chord_sync": 1
+			},
+			{
+				"element": 6,				
+				"part": 5,
+				"source_file": "./end1/chord2.mid",
+				"source_channel": 1,
+				"chord_sync": 1
+			},
+			{
+				"element": 6,				
+				"part": 6,
+				"source_file": "./end1/chord3.mid",
+				"source_channel": 1,
+				"chord_sync": 1
+			},
+			{
+				"element": 6,				
+				"part": 7,
+				"source_file": "./end1/chord4.mid",
+				"source_channel": 1,
+				"chord_sync": 1
+			}						
+		]
+	}
+}
